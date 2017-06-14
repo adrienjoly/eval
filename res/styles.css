@@ -1,4 +1,4 @@
-@import  "//fonts.googleapis.com/css?family=Montserrat";
+@import  "https://fonts.googleapis.com/css?family=Montserrat";
 
 html {
   height: 100%;
@@ -12,7 +12,7 @@ body {
   min-height: 100%;
   font-family: "Montserrat",sans-serif;
   line-height: 1.42857;
-  font-size: 17px;
+  font-size: 16px;
   background-color: rgba(0,0,0,1);
   color: #FFF;
   word-wrap: normal;
@@ -164,8 +164,7 @@ section {
 }
 
 .bg-image {
-  /* photo from: https://www.pexels.com/photo/dawn-landscape-mountains-nature-1852/ */
-  background-image: url(background.jpg);
+  background-image: url(background.jpg?1);
   background-attachment: scroll;
   background-position: 50% 50%;
   background-size: cover;
@@ -175,7 +174,7 @@ section {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .form-control__input {
@@ -202,21 +201,21 @@ h1 {
 }
 
 @media all and (min-width:481px) {
-  p {
-    font-size: 22px;
+  body {
+    font-size: 18px;
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 48px;
   }
 }
 
 @media all and (min-width:769px) {
-  p {
-    font-size: 22px;
+  body {
+    font-size: 20px;
   }
 
   h1 {
-    font-size: 75px;
+    font-size: 64px;
   }
 }
